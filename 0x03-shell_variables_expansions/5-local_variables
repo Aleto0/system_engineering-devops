@@ -1,2 +1,10 @@
 #!/bin/bash
+
+echo "=== Shell functions ==="
+declare -f
+
+echo -e "\n=== All shell variables (local + exported) ==="
+set
+
+echo -e "\n=== Environment variables (exported only) ==="
 env
