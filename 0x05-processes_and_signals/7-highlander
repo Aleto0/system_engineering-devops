@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Infinite loop that reacts to SIGTERM
+# This script prints a message indefinitely and ignores SIGTERM
+
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
