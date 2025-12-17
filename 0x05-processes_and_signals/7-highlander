@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script prints a message indefinitely and ignores SIGTERM
 
-trap 'echo "I am invincible!!!"' SIGTERM
+trap 'echo "OK"' SIGTERM
 
 while true
 do
